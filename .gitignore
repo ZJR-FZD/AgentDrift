@@ -1,0 +1,39 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+.env
+.env.*
+
+# IDE / editor
+.idea/
+.vscode/
+.cursor/
+.specstory/
+*.swp
+
+# Secrets — never commit
+**/secrets*
+**/*credentials*
+**/*api_key*
+
+# Local data (not part of this code release)
+data/raw_data/**
+!data/raw_data/README.md
+data/processed_data/**
+!data/processed_data/.gitkeep
+qc_runs/
+logs/
+evaluation_results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lock / temp
+*.lock
+*.tmp

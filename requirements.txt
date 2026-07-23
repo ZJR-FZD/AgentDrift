@@ -1,0 +1,10 @@
+# Core (Stage 1/2 + critic + OpenAI-compatible clients)
+openai>=1.40.0
+tqdm>=4.66.0
+httpx>=0.27.0
+requests>=2.31.0
+
+# Optional: local HF backends in model_api (USE_LOCAL=1)
+# torch
+# transformers
+# accelerate
