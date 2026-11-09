@@ -105,11 +105,14 @@ Outputs land in `data/processed_data/<Category>/` (environments, playbooks, `dat
 ## Citation
 
 ```bibtex
-@article{agentdrift2026,
-  title   = {AgentDrift: ...},
-  author  = {...},
-  year    = {2026},
-  note    = {arXiv preprint}
+@misc{cao2026authorizationdriftllmagents,
+      title={Authorization Drift in LLM Agents: Evaluating Boundary Compliance in Multi-Step Tool Use}, 
+      author={Chuxue Cao and Jingru Zeng and Boqin Yin and Yujin Zhou and Yidan Huang and Sujin Chen and Jinluan Yang and Haoran Li and Yike Guo and Sirui Han},
+      year={2026},
+      eprint={2611.09113},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2611.09113}, 
 }
 ```
 
